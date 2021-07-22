@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+package api;
+option go_package = "/apiproto";
+
+import "google/protobuf/timestamp.proto";
+
+message Record {
+  google.protobuf.Timestamp timestamp = 1;
+  string tag = 2;
+  map<string, string> record = 3;
+}
+
+message RecordSummary {
+  int32 event_count = 1;
+}
+
+service Event {
+  rpc RecordEvents(Record) returns (RecordSummary) {}
+}
