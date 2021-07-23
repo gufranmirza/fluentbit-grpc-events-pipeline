@@ -5,16 +5,22 @@ option go_package = "/apiproto";
 
 import "google/protobuf/timestamp.proto";
 
-message Record {
+message Event {
   google.protobuf.Timestamp timestamp = 1;
-  string tag = 2;
-  map<string, string> record = 3;
+  string agent_id = 2;
+  string tag = 3;
+  map<string, string> record = 4;
 }
 
-message RecordSummary {
-  int32 event_count = 1;
+enum EventCode {
+    SUCCESS = 0;
+    FAILURE = 1;
 }
 
-service Event {
-  rpc RecordEvents(Record) returns (RecordSummary) {}
+message EResponse {
+  EventCode status = 1;
+}
+
+service EventService {
+  rpc SendEvent(stream Event) returns (EResponse);
 }

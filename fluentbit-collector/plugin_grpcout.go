@@ -16,6 +16,7 @@ import (
 )
 
 var clientConn *grpc.ClientConn
+var c apiproto.EventServiceClient
 
 //export FLBPluginRegister
 func FLBPluginRegister(ctx unsafe.Pointer) int {
@@ -28,11 +29,15 @@ func FLBPluginInit(ctx unsafe.Pointer) int {
 	param := output.FLBPluginConfigKey(ctx, "param")
 	fmt.Printf("[out-grpc] plugin parameter = '%s'\n", param)
 
+	// Dial
 	var err error
 	clientConn, err = grpc.Dial("host.docker.internal:7777", grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("did not connect: %s", err)
 	}
+
+	// setup streaming
+	c = apiproto.NewEventServiceClient(clientConn)
 
 	return output.FLB_OK
 }
@@ -50,10 +55,14 @@ func FLBPluginFlush(data unsafe.Pointer, length C.int, tag *C.char) int {
 	// Create Fluent Bit decoder
 	dec := output.NewDecoder(data, int(length))
 
-	c := apiproto.NewEventClient(clientConn)
+	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	defer cancel()
+	stream, err := c.SendEvent(ctx)
+	if err != nil {
+		log.Fatalf("%v.SendEvent(_) = _, %v", c, err)
+	}
 
 	// Iterate Records
-	count = 0
 	for {
 		// Record
 		ret, ts, record = output.GetRecord(dec)
@@ -82,12 +91,20 @@ func FLBPluginFlush(data unsafe.Pointer, length C.int, tag *C.char) int {
 		}
 
 		log.Printf("[%d] %s: %s %s\n", count, timestamp.String(), C.GoString(tag), record)
-		response, err := c.RecordEvents(context.Background(), &apiproto.Record{Tag: C.GoString(tag), Record: rec})
-		if err != nil {
+		event := &apiproto.Event{Tag: C.GoString(tag), Record: rec}
+		if err := stream.Send(event); err != nil {
 			log.Fatalf("Error calling RecordEvents: %s", err)
 		}
-		log.Printf("Response from server: %d", response.EventCount)
-		count++
+	}
+
+	reply, err := stream.CloseAndRecv()
+	if err != nil {
+		log.Fatalf("%v.CloseAndRecv() got error %v, want %v", stream, err, nil)
+	}
+	log.Printf("Route summary: %v", reply)
+
+	if reply.Status == apiproto.EventCode_FAILURE {
+		return output.FLB_RETRY
 	}
 
 	// Return options:

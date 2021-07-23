@@ -1,23 +1,30 @@
 package handler
 
 import (
+	"io"
 	"log"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"golang.org/x/net/context"
 )
 
 // Server represents the gRPC server
 type Server struct {
-	apiproto.UnimplementedEventServer
+	apiproto.UnimplementedEventServiceServer
 }
 
 // SayHello generates response to a Ping request
-func (s *Server) RecordEvents(ctx context.Context, in *apiproto.Record) (*apiproto.RecordSummary, error) {
-	record := in.GetRecord()
-	for k, v := range record {
-		log.Printf("%s->%s", k, v)
+func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
+	for {
+		event, err := stream.Recv()
+		if err == io.EOF {
+			return stream.SendAndClose(&apiproto.EResponse{
+				Status: apiproto.EventCode_SUCCESS,
+			})
+		}
+		if err != nil {
+			return err
+		}
+
+		log.Printf("%+v \n\n", event)
 	}
-	log.Printf("%s %s %s", in.GetTimestamp(), in.GetTag(), in.GetRecord())
-	return &apiproto.RecordSummary{EventCount: 99}, nil
 }

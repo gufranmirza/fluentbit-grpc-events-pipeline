@@ -26,10 +26,10 @@ func main() {
 	grpcServer := grpc.NewServer()
 
 	// attach the Ping service to the server
-	apiproto.RegisterEventServer(grpcServer, &s)
+	apiproto.RegisterEventServiceServer(grpcServer, &s)
 
 	// start the server
-	fmt.Printf("Starting server at %s", url)
+	fmt.Printf("Starting server at %s\n", url)
 	if err := grpcServer.Serve(lis); err != nil {
 		log.Fatalf("failed to serve: %s", err)
 	}
