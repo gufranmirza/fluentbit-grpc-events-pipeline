@@ -8,3 +8,4 @@ docker build . -t fluentbit-collector -f Dockerfile
 
 docker run -it --rm fluentbit-collector
 
+Server-Side TLS

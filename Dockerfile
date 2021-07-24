@@ -7,13 +7,13 @@ ENV GOOS=linux\
     GOARCH=amd64\
     GO111MODULE=on
 
-
 RUN go mod download 
 RUN go build -buildmode=c-shared -o plugin_grpcout.so ./fluentbit-collector
 
 FROM fluent/fluent-bit:1.7
 
 COPY --from=gobuilder /root/plugin_grpcout.so /fluent-bit/bin/
+COPY --from=gobuilder /root/cert/ca-cert.pem /fluent-bit/bin/
 COPY --from=gobuilder /root/fluentbit-collector/fluent-bit.conf /fluent-bit/etc/
 COPY --from=gobuilder /root/fluentbit-collector/plugins.conf /fluent-bit/etc/
 

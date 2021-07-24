@@ -25,6 +25,6 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			return err
 		}
 
-		log.Printf("%+v \n\n", event)
+		log.Printf("%v \n\n", event)
 	}
 }

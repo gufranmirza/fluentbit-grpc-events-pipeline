@@ -8,6 +8,7 @@ import (
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/ingester/handler"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials"
 )
 
 // main start a gRPC server and waits for connection
@@ -22,8 +23,16 @@ func main() {
 	// create a server instance
 	s := handler.Server{}
 
+	// Create tls based credential.
+	creds, err := credentials.NewServerTLSFromFile("../cert/server-cert.pem", "../cert/server-key.pem")
+	if err != nil {
+		log.Fatal("cannot load TLS credentials: ", err)
+	}
+
 	// create a gRPC server object
-	grpcServer := grpc.NewServer()
+	grpcServer := grpc.NewServer(
+		grpc.Creds(creds),
+	)
 
 	// attach the Ping service to the server
 	apiproto.RegisterEventServiceServer(grpcServer, &s)

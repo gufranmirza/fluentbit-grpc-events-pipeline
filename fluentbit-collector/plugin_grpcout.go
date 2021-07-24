@@ -8,6 +8,7 @@ import (
 	"github.com/fluent/fluent-bit-go/output"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials"
 )
 import (
 	"C"
@@ -29,9 +30,16 @@ func FLBPluginInit(ctx unsafe.Pointer) int {
 	param := output.FLBPluginConfigKey(ctx, "param")
 	fmt.Printf("[out-grpc] plugin parameter = '%s'\n", param)
 
-	// Dial
 	var err error
-	clientConn, err = grpc.Dial("host.docker.internal:7777", grpc.WithInsecure())
+
+	// Create tls based credential.
+	creds, err := credentials.NewClientTLSFromFile("/fluent-bit/bin/ca-cert.pem", "x.test.example.com")
+	if err != nil {
+		log.Fatalf("failed to load credentials: %v", err)
+	}
+
+	// Dial
+	clientConn, err = grpc.Dial("host.docker.internal:7777", grpc.WithTransportCredentials(creds))
 	if err != nil {
 		log.Fatalf("did not connect: %s", err)
 	}
