@@ -9,7 +9,7 @@ message Event {
   google.protobuf.Timestamp timestamp = 1;
   string agent_id = 2;
   string tag = 3;
-  map<string, string> record = 4;
+  string message = 4;
 }
 
 enum EventCode {

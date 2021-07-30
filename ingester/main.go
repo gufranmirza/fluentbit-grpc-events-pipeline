@@ -11,6 +11,8 @@ import (
 	"google.golang.org/grpc/credentials"
 )
 
+var encryptionKey string
+
 // main start a gRPC server and waits for connection
 func main() {
 	// create a listener on TCP port 7777

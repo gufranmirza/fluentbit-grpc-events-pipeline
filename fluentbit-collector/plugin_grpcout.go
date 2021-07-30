@@ -2,13 +2,21 @@ package main
 
 import (
 	"context"
+	"crypto/aes"
+	"crypto/cipher"
+	"crypto/rand"
+	"encoding/hex"
+	"io"
+	"io/ioutil"
 	"log"
+	"os"
 	"time"
 
 	"github.com/fluent/fluent-bit-go/output"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
+	"google.golang.org/protobuf/types/known/timestamppb"
 )
 import (
 	"C"
@@ -18,6 +26,7 @@ import (
 
 var clientConn *grpc.ClientConn
 var c apiproto.EventServiceClient
+var encryptionKey string
 
 //export FLBPluginRegister
 func FLBPluginRegister(ctx unsafe.Pointer) int {
@@ -47,6 +56,13 @@ func FLBPluginInit(ctx unsafe.Pointer) int {
 	// setup streaming
 	c = apiproto.NewEventServiceClient(clientConn)
 
+	// Read Public key for encryption of Events passed over wire
+	pubKey, err := ioutil.ReadFile("/fluent-bit/bin/encryption_aes.pub")
+	if err != nil {
+		log.Fatalf("Failed to read key %v \n", err)
+	}
+	encryptionKey = string(pubKey)
+
 	return output.FLB_OK
 }
 
@@ -57,8 +73,6 @@ func FLBPluginFlush(data unsafe.Pointer, length C.int, tag *C.char) int {
 		ts     interface{}
 		record map[interface{}]interface{}
 	)
-
-	var count int
 
 	// Create Fluent Bit decoder
 	dec := output.NewDecoder(data, int(length))
@@ -98,8 +112,24 @@ func FLBPluginFlush(data unsafe.Pointer, length C.int, tag *C.char) int {
 			timestamp = time.Now()
 		}
 
-		log.Printf("[%d] %s: %s %s\n", count, timestamp.String(), C.GoString(tag), record)
-		event := &apiproto.Event{Tag: C.GoString(tag), Record: rec}
+		encryptedEvent, err := encrypt(encryptionKey, fmt.Sprintf("%v", rec))
+		if err != nil {
+			log.Printf("Failed to encrpt message %v", err)
+			continue
+		}
+
+		hostname, _ := os.Hostname()
+		event := &apiproto.Event{
+			Tag:     C.GoString(tag),
+			AgentId: hostname,
+			Message: encryptedEvent,
+			Timestamp: &timestamppb.Timestamp{
+				Seconds: timestamp.UnixNano(),
+				Nanos:   int32(timestamp.UnixNano()),
+			},
+		}
+		log.Printf("%v\n", record)
+
 		if err := stream.Send(event); err != nil {
 			log.Fatalf("Error calling RecordEvents: %s", err)
 		}
@@ -130,4 +160,41 @@ func FLBPluginExit() int {
 }
 
 func main() {
+}
+
+// ----- Non Plugin Code -------
+func encrypt(key string, message string) (string, error) {
+	// generate a new aes cipher using our 32 byte long key
+	c, err := aes.NewCipher([]byte(key))
+	// if there are any errors, handle them
+	if err != nil {
+		return "", err
+	}
+
+	// gcm or Galois/Counter Mode, is a mode of operation
+	// for symmetric key cryptographic block ciphers
+	// - https://en.wikipedia.org/wiki/Galois/Counter_Mode
+	gcm, err := cipher.NewGCM(c)
+	// if any error generating new GCM
+	// handle them
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	// creates a new byte array the size of the nonce
+	// which must be passed to Seal
+	nonce := make([]byte, gcm.NonceSize())
+	// populates our nonce with a cryptographically secure
+	// random sequence
+	if _, err = io.ReadFull(rand.Reader, nonce); err != nil {
+		fmt.Println(err)
+	}
+
+	// here we encrypt our text using the Seal function
+	// Seal encrypts and authenticates plaintext, authenticates the
+	// additional data and appends the result to dst, returning the updated
+	// slice. The nonce must be NonceSize() bytes long and unique for all
+	// time, for a given key.
+	ciphertext := gcm.Seal(nonce, nonce, []byte(message), nil)
+	return hex.EncodeToString(ciphertext), nil
 }
