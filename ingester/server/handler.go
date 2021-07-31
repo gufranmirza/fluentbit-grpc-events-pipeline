@@ -1,4 +1,4 @@
-package handler
+package server
 
 import (
 	"crypto/aes"
@@ -8,15 +8,9 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"os"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 )
-
-// Server represents the gRPC server
-type Server struct {
-	apiproto.UnimplementedEventServiceServer
-}
 
 // SayHello generates response to a Ping request
 func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
@@ -38,7 +32,7 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 		}
 
 		fmt.Println("==============================================")
-		if len(os.Getenv("decrypt")) > 0 {
+		if s.config.Decrypt {
 			msg, err := decrypt(string(pubKey), event.Message)
 			if err != nil {
 				fmt.Printf("Failed to decrypt message %v/n", err)

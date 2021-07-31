@@ -2,46 +2,47 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"net"
+	"os"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/ingester/handler"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
+	"github.com/spf13/cobra"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/ingester/server"
 )
 
-var encryptionKey string
+// RootCmd represents the base command when called without any subcommands
+var RootCmd = &cobra.Command{
+	Use:   "Ingester",
+	Short: "Ingester implementation for PLogger",
+	Long:  `Starts a http server and serves the configured api`,
+}
 
-// main start a gRPC server and waits for connection
+// serveCmd represents the serve command
+var serveCmd = &cobra.Command{
+	Use:   "rpc-server",
+	Short: "start rpc server with configured api",
+	Long:  `Starts a rpc server and serves the configured api`,
+	Run: func(cmd *cobra.Command, args []string) {
+		fstatus, _ := cmd.Flags().GetBool("decrypt")
+		server := server.NewServer(&server.Config{Decrypt: fstatus})
+		server.Start()
+	},
+}
+
+func init() {
+	RootCmd.AddCommand(serveCmd)
+
+	serveCmd.PersistentFlags().Bool("decrypt", false, "Decrypt messages received from fluentbit-agent")
+
+}
+
+// Execute adds all child commands to the root command and sets flags appropriately.
+// This is called by main.main(). It only needs to happen once to the rootCmd.
+func Execute() {
+	if err := RootCmd.Execute(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+}
+
 func main() {
-	// create a listener on TCP port 7777
-	url := fmt.Sprintf(":%d", 7777)
-	lis, err := net.Listen("tcp", url)
-	if err != nil {
-		log.Fatalf("failed to listen: %v", err)
-	}
-
-	// create a server instance
-	s := handler.Server{}
-
-	// Create tls based credential.
-	creds, err := credentials.NewServerTLSFromFile("../cert/server-cert.pem", "../cert/server-key.pem")
-	if err != nil {
-		log.Fatal("cannot load TLS credentials: ", err)
-	}
-
-	// create a gRPC server object
-	grpcServer := grpc.NewServer(
-		grpc.Creds(creds),
-	)
-
-	// attach the Ping service to the server
-	apiproto.RegisterEventServiceServer(grpcServer, &s)
-
-	// start the server
-	fmt.Printf("Starting server at %s\n", url)
-	if err := grpcServer.Serve(lis); err != nil {
-		log.Fatalf("failed to serve: %s", err)
-	}
+	Execute()
 }
