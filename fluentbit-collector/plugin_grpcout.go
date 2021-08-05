@@ -2,11 +2,6 @@ package main
 
 import (
 	"context"
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/rand"
-	"encoding/hex"
-	"io"
 	"io/ioutil"
 	"log"
 	"os"
@@ -14,6 +9,7 @@ import (
 
 	"github.com/fluent/fluent-bit-go/output"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/protobuf/types/known/timestamppb"
@@ -112,7 +108,7 @@ func FLBPluginFlush(data unsafe.Pointer, length C.int, tag *C.char) int {
 			timestamp = time.Now()
 		}
 
-		encryptedEvent, err := encrypt(encryptionKey, fmt.Sprintf("%v", rec))
+		encryptedEvent, err := encryption.Encrypt(encryptionKey, fmt.Sprintf("%v", rec))
 		if err != nil {
 			log.Printf("Failed to encrpt message %v", err)
 			continue
@@ -163,38 +159,3 @@ func main() {
 }
 
 // ----- Non Plugin Code -------
-func encrypt(key string, message string) (string, error) {
-	// generate a new aes cipher using our 32 byte long key
-	c, err := aes.NewCipher([]byte(key))
-	// if there are any errors, handle them
-	if err != nil {
-		return "", err
-	}
-
-	// gcm or Galois/Counter Mode, is a mode of operation
-	// for symmetric key cryptographic block ciphers
-	// - https://en.wikipedia.org/wiki/Galois/Counter_Mode
-	gcm, err := cipher.NewGCM(c)
-	// if any error generating new GCM
-	// handle them
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	// creates a new byte array the size of the nonce
-	// which must be passed to Seal
-	nonce := make([]byte, gcm.NonceSize())
-	// populates our nonce with a cryptographically secure
-	// random sequence
-	if _, err = io.ReadFull(rand.Reader, nonce); err != nil {
-		fmt.Println(err)
-	}
-
-	// here we encrypt our text using the Seal function
-	// Seal encrypts and authenticates plaintext, authenticates the
-	// additional data and appends the result to dst, returning the updated
-	// slice. The nonce must be NonceSize() bytes long and unique for all
-	// time, for a given key.
-	ciphertext := gcm.Seal(nonce, nonce, []byte(message), nil)
-	return hex.EncodeToString(ciphertext), nil
-}

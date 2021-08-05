@@ -1,15 +1,13 @@
 package server
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
-	"encoding/hex"
 	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
 )
 
 // SayHello generates response to a Ping request
@@ -33,7 +31,7 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 
 		fmt.Println("==============================================")
 		if s.config.Decrypt {
-			msg, err := decrypt(string(pubKey), event.Message)
+			msg, err := encryption.Decrypt(string(pubKey), event.Message)
 			if err != nil {
 				fmt.Printf("Failed to decrypt message %v/n", err)
 			}
@@ -42,34 +40,4 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 		fmt.Println(event)
 
 	}
-}
-
-func decrypt(key string, ct string) (string, error) {
-	ciphertext, err := hex.DecodeString(ct)
-	if err != nil {
-		return "", err
-	}
-
-	c, err := aes.NewCipher([]byte(key))
-	if err != nil {
-		return "", err
-	}
-
-	gcm, err := cipher.NewGCM(c)
-	if err != nil {
-		return "", err
-	}
-
-	nonceSize := gcm.NonceSize()
-	if len(ciphertext) < nonceSize {
-		return "", err
-	}
-
-	nonce, ciphertext := ciphertext[:nonceSize], ciphertext[nonceSize:]
-	plaintext, err := gcm.Open(nil, []byte(nonce), []byte(ciphertext), nil)
-	if err != nil {
-		return "", err
-	}
-
-	return string(plaintext), nil
 }
