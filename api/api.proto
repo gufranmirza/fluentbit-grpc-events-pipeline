@@ -6,14 +6,25 @@ option go_package = "/apiproto";
 import "google/protobuf/timestamp.proto";
 
 message Event {
-  google.protobuf.Timestamp timestamp = 1;
-  string agent_id = 2;
-  string tag = 3;
-  string message = 4;
+  google.protobuf.Timestamp timestamp = 1; // timestamp when event is recorded at collector
+  string agent_id = 2; // some unique id of the collector
+  string tag = 3; // event tag i.e. cpu, mem etc.
+  string message = 4; // encrypted message 
+}
+
+message AccesKey {
+  string AccesKey = 1; // Access key for agent, it is obtained from ingester and used for mapping agents 
+}
+
+message Config {
+  AccesKey AccesKey = 1;
+  string AccessToken = 2; 
+  string EncryptionKey = 3;
+  string UserID = 4; 
 }
 
 enum EventCode {
-    SUCCESS = 0;
+    SUCCESS = 0; 
     FAILURE = 1;
 }
 
@@ -22,5 +33,6 @@ message EResponse {
 }
 
 service EventService {
-  rpc SendEvent(stream Event) returns (EResponse);
+  rpc SendEvent(stream Event) returns (EResponse) {};
+  rpc ExchangeConfig (AccesKey) returns (Config) {}
 }

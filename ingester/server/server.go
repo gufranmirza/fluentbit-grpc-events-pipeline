@@ -1,7 +1,9 @@
 package server
 
 import (
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net"
 
@@ -12,7 +14,8 @@ import (
 
 // Config holds the server specific config
 type Config struct {
-	Decrypt bool // Decrypt messages received from fluentbit-agent
+	Decrypt       bool                       // Decrypt messages received from fluentbit-agent
+	AccessTokenDB map[string]apiproto.Config // List of access tokens and their config
 }
 
 // Server represents the gRPC server
@@ -47,8 +50,18 @@ func (s *Server) Start() {
 		grpc.Creds(creds),
 	)
 
-	// attach the Ping service to the server
+	// attach the Event service to the server
 	apiproto.RegisterEventServiceServer(grpcServer, s)
+
+	confBytes, err := ioutil.ReadFile("./access-tokens-db.json")
+	if err != nil {
+		log.Fatalf("Failed to access tokens db %v \n", err)
+	}
+
+	err = json.Unmarshal(confBytes, &s.config.AccessTokenDB)
+	if err != nil {
+		log.Fatalf("Failed to access tokens db %v \n", err)
+	}
 
 	// start the server
 	fmt.Printf("Starting grpc-server at => %s\n", url)

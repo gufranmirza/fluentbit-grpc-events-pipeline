@@ -19,6 +19,7 @@ const _ = grpc.SupportPackageIsVersion7
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type EventServiceClient interface {
 	SendEvent(ctx context.Context, opts ...grpc.CallOption) (EventService_SendEventClient, error)
+	ExchangeConfig(ctx context.Context, in *AccesKey, opts ...grpc.CallOption) (*Config, error)
 }
 
 type eventServiceClient struct {
@@ -63,11 +64,21 @@ func (x *eventServiceSendEventClient) CloseAndRecv() (*EResponse, error) {
 	return m, nil
 }
 
+func (c *eventServiceClient) ExchangeConfig(ctx context.Context, in *AccesKey, opts ...grpc.CallOption) (*Config, error) {
+	out := new(Config)
+	err := c.cc.Invoke(ctx, "/api.EventService/ExchangeConfig", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // EventServiceServer is the server API for EventService service.
 // All implementations must embed UnimplementedEventServiceServer
 // for forward compatibility
 type EventServiceServer interface {
 	SendEvent(EventService_SendEventServer) error
+	ExchangeConfig(context.Context, *AccesKey) (*Config, error)
 	mustEmbedUnimplementedEventServiceServer()
 }
 
@@ -77,6 +88,9 @@ type UnimplementedEventServiceServer struct {
 
 func (UnimplementedEventServiceServer) SendEvent(EventService_SendEventServer) error {
 	return status.Errorf(codes.Unimplemented, "method SendEvent not implemented")
+}
+func (UnimplementedEventServiceServer) ExchangeConfig(context.Context, *AccesKey) (*Config, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method ExchangeConfig not implemented")
 }
 func (UnimplementedEventServiceServer) mustEmbedUnimplementedEventServiceServer() {}
 
@@ -117,13 +131,36 @@ func (x *eventServiceSendEventServer) Recv() (*Event, error) {
 	return m, nil
 }
 
+func _EventService_ExchangeConfig_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(AccesKey)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(EventServiceServer).ExchangeConfig(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/api.EventService/ExchangeConfig",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(EventServiceServer).ExchangeConfig(ctx, req.(*AccesKey))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // EventService_ServiceDesc is the grpc.ServiceDesc for EventService service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var EventService_ServiceDesc = grpc.ServiceDesc{
 	ServiceName: "api.EventService",
 	HandlerType: (*EventServiceServer)(nil),
-	Methods:     []grpc.MethodDesc{},
+	Methods: []grpc.MethodDesc{
+		{
+			MethodName: "ExchangeConfig",
+			Handler:    _EventService_ExchangeConfig_Handler,
+		},
+	},
 	Streams: []grpc.StreamDesc{
 		{
 			StreamName:    "SendEvent",

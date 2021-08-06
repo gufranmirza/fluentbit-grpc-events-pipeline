@@ -1,6 +1,8 @@
 package server
 
 import (
+	"context"
+	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -40,4 +42,14 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 		fmt.Println(event)
 
 	}
+}
+
+// GetFeature returns the feature at the given point.
+func (s *Server) ExchangeConfig(ctx context.Context, accessKey *apiproto.AccesKey) (*apiproto.Config, error) {
+	conf, ok := s.config.AccessTokenDB[accessKey.AccesKey]
+	if !ok {
+		return nil, errors.New("invalid Access Key")
+	}
+
+	return &conf, nil
 }

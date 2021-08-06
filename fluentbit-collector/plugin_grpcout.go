@@ -52,6 +52,12 @@ func FLBPluginInit(ctx unsafe.Pointer) int {
 	// setup streaming
 	c = apiproto.NewEventServiceClient(clientConn)
 
+	cfg, err := c.ExchangeAgentConfig(context.Background(), &apiproto.AccesKey{AccesKey: "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6"})
+	if err != nil {
+		log.Fatalf("%v.GetFeatures(_) = _, %v: ", c, err)
+	}
+	fmt.Println(cfg)
+
 	// Read Public key for encryption of Events passed over wire
 	pubKey, err := ioutil.ReadFile("/fluent-bit/bin/encryption_aes.pub")
 	if err != nil {
