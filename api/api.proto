@@ -10,17 +10,19 @@ message Event {
   string agent_id = 2; // some unique id of the collector
   string tag = 3; // event tag i.e. cpu, mem etc.
   string message = 4; // encrypted message 
+  string UserID = 5; // Id of the user to which this event belongs to 
+  string AccessKey = 6; // Access key for agent, it is obtained from ingester and used for mapping collector agent 
 }
 
-message AccesKey {
-  string AccesKey = 1; // Access key for agent, it is obtained from ingester and used for mapping agents 
+message AccessKey {
+  string AccessKey = 1; // Access key for agent, it is obtained from ingester and used for mapping collector agent 
 }
 
 message Config {
-  AccesKey AccesKey = 1;
-  string AccessToken = 2; 
-  string EncryptionKey = 3;
-  string UserID = 4; 
+  string AccessKey = 1; // Access key for agent, it is obtained from ingester and used for mapping collector agent 
+  string AccessToken = 2; // Access token for perform authentication while sending events
+  string EncryptionKey = 3; // Encrypt messages if aes encyption key is provided
+  string UserID = 4; // Id of the user 
 }
 
 enum EventCode {
@@ -34,5 +36,5 @@ message EResponse {
 
 service EventService {
   rpc SendEvent(stream Event) returns (EResponse) {};
-  rpc ExchangeConfig (AccesKey) returns (Config) {}
+  rpc ExchangeConfig (AccessKey) returns (Config) {}
 }

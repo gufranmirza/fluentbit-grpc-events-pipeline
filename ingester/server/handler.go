@@ -5,7 +5,6 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"log"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
@@ -14,12 +13,6 @@ import (
 
 // SayHello generates response to a Ping request
 func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
-	// Read Public key for encryption of Events passed over wire
-	pubKey, err := ioutil.ReadFile("../cert/encryption_aes.pub")
-	if err != nil {
-		log.Fatalf("Failed to read key %v \n", err)
-	}
-
 	for {
 		event, err := stream.Recv()
 		if err == io.EOF {
@@ -31,22 +24,23 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			return err
 		}
 
-		fmt.Println("==============================================")
-		if s.config.Decrypt {
-			msg, err := encryption.Decrypt(string(pubKey), event.Message)
+		log.Println("==============================================")
+		key, ok := s.config.AccessTokenDB[event.AccessKey]
+		if ok && s.config.Decrypt && key.AccessKey != "" {
+			msg, err := encryption.Decrypt(string(key.AccessKey), event.Message)
 			if err != nil {
 				fmt.Printf("Failed to decrypt message %v/n", err)
 			}
 			event.Message = msg
 		}
-		fmt.Println(event)
+		log.Printf("%v\n", event)
 
 	}
 }
 
 // GetFeature returns the feature at the given point.
-func (s *Server) ExchangeConfig(ctx context.Context, accessKey *apiproto.AccesKey) (*apiproto.Config, error) {
-	conf, ok := s.config.AccessTokenDB[accessKey.AccesKey]
+func (s *Server) ExchangeConfig(ctx context.Context, accessKey *apiproto.AccessKey) (*apiproto.Config, error) {
+	conf, ok := s.config.AccessTokenDB[accessKey.AccessKey]
 	if !ok {
 		return nil, errors.New("invalid Access Key")
 	}
