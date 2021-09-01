@@ -20,7 +20,7 @@ message AccessKey {
 
 message Config {
   string AccessKey = 1; // Access key for agent, it is obtained from ingester and used for mapping collector agent 
-  string AccessToken = 2; // Access token for perform authentication while sending events
+  string AccessToken = 2; // Access token to perform authentication while sending events
   string EncryptionKey = 3; // Encrypt messages if aes encyption key is provided
   string UserID = 4; // Id of the user 
 }

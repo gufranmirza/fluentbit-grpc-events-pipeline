@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"os"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"google.golang.org/grpc"
@@ -11,6 +12,9 @@ import (
 
 func (plugin *Plugin) connectToIngest() error {
 	var err error
+
+	// read and set access key
+	plugin.config.AccessKey = os.Getenv("ACCESS_KEY")
 
 	// Create tls based credential.
 	creds, err := credentials.NewClientTLSFromFile("/fluent-bit/bin/ca-cert.pem", "x.test.example.com")

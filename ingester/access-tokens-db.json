@@ -2,7 +2,7 @@
     "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6" : {
         "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
         "AccessToken": "jwt-token",
-        "EncryptionKey": "",
+        "EncryptionKey": "883EC28EBA9A36A386FA351FBC482B34",
         "UserID": "1000202"
     }
 }

@@ -26,8 +26,8 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 
 		log.Println("==============================================")
 		key, ok := s.config.AccessTokenDB[event.AccessKey]
-		if ok && s.config.Decrypt && key.AccessKey != "" {
-			msg, err := encryption.Decrypt(string(key.AccessKey), event.Message)
+		if ok && s.config.Decrypt && key.EncryptionKey != "" {
+			msg, err := encryption.Decrypt(string(key.EncryptionKey), event.Message)
 			if err != nil {
 				fmt.Printf("Failed to decrypt message %v/n", err)
 			}

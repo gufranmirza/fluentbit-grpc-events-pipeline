@@ -33,7 +33,7 @@ func FLBPluginRegister(ctx unsafe.Pointer) int {
 //export FLBPluginInit
 func FLBPluginInit(ctx unsafe.Pointer) int {
 	// init internal plugin object
-	plugin = Plugin{}
+	plugin = Plugin{config: &apiproto.Config{}}
 
 	// Example to retrieve an optional configuration parameter
 	param := output.FLBPluginConfigKey(ctx, "param")
@@ -46,7 +46,7 @@ func FLBPluginInit(ctx unsafe.Pointer) int {
 	}
 
 	// Exchange configuration
-	err = plugin.exchangeConfig("9c60f26f-5b6c-4c80-b5f5-625bf965b6a6")
+	err = plugin.exchangeConfig(plugin.config.AccessKey)
 	if err != nil {
 		log.Fatalf("failed to exchange config err: %v", err)
 	}
