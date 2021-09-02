@@ -3,6 +3,7 @@ module github.ibm.com/Gufran-Baig/fargo-fb-poc
 go 1.15
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fluent/fluent-bit-go v0.0.0-20201210173045-3fd1e0486df2
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/spf13/cobra v1.1.3
