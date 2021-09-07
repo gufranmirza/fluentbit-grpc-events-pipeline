@@ -39,7 +39,7 @@ var authCmd = &cobra.Command{
 	Long:  `Generate a JWT Access Token for Collector Agent`,
 	Run: func(cmd *cobra.Command, args []string) {
 		auth := jwtauth.NewJWTAuth()
-		token, err := auth.Generate(&jwtauth.Claims{}, time.Duration(expiry))
+		token, err := auth.Generate(&jwtauth.Claims{}, time.Duration(expiry*int64(time.Second)))
 		if err != nil {
 			fmt.Printf("ERROR - %v\n", err)
 		}

@@ -48,6 +48,8 @@ func (s *Server) Start() {
 	// create a gRPC server object
 	grpcServer := grpc.NewServer(
 		grpc.Creds(creds),
+		grpc.UnaryInterceptor(Unary()),
+		grpc.StreamInterceptor(Stream()),
 	)
 
 	// attach the Event service to the server
