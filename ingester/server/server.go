@@ -8,6 +8,7 @@ import (
 	"net"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -21,7 +22,8 @@ type Config struct {
 // Server represents the gRPC server
 type Server struct {
 	apiproto.UnimplementedEventServiceServer
-	config *Config
+	config   *Config
+	producer *kafka.Producer
 }
 
 // main start a gRPC server and waits for connection
@@ -51,19 +53,28 @@ func (s *Server) Start() {
 		grpc.UnaryInterceptor(Unary()),
 		grpc.StreamInterceptor(Stream()),
 	)
+	defer grpcServer.Stop()
 
 	// attach the Event service to the server
 	apiproto.RegisterEventServiceServer(grpcServer, s)
 
+	// read local database of access tokens
 	confBytes, err := ioutil.ReadFile("./access-tokens-db.json")
 	if err != nil {
 		log.Fatalf("Failed to access tokens db %v \n", err)
 	}
-
 	err = json.Unmarshal(confBytes, &s.config.AccessTokenDB)
 	if err != nil {
 		log.Fatalf("Failed to access tokens db %v \n", err)
 	}
+
+	// start kafka producer
+	producer, err := kafka.NewProducer("plogger-kafka", []string{"127.0.0.1:9092"})
+	if err != nil {
+		log.Fatalf("Failed to connect to kafka %v \n", err)
+	}
+	s.producer = producer
+	defer s.producer.Close()
 
 	// start the server
 	fmt.Printf("Starting grpc-server at => %s\n", url)

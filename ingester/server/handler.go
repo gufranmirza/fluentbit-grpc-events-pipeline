@@ -34,6 +34,7 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			event.Message = msg
 		}
 		log.Printf("%v\n", event)
+		s.producer.Produce([]byte(fmt.Sprintf("%v", event)))
 
 	}
 }
