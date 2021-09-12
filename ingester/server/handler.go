@@ -13,9 +13,12 @@ import (
 
 // SayHello generates response to a Ping request
 func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
+	var count int
 	for {
 		event, err := stream.Recv()
 		if err == io.EOF {
+			log.Printf("--> Messages sent to kafka: %v", count)
+
 			return stream.SendAndClose(&apiproto.EResponse{
 				Status: apiproto.EventCode_SUCCESS,
 			})
@@ -24,7 +27,6 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			return err
 		}
 
-		log.Println("==============================================")
 		key, ok := s.config.AccessTokenDB[event.AccessKey]
 		if ok && s.config.Decrypt && key.EncryptionKey != "" {
 			msg, err := encryption.Decrypt(string(key.EncryptionKey), event.Message)
@@ -33,9 +35,9 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			}
 			event.Message = msg
 		}
-		log.Printf("%v\n", event)
-		s.producer.Produce([]byte(fmt.Sprintf("%v", event)))
 
+		s.producer.Produce([]byte(fmt.Sprintf("%v", event)))
+		count++
 	}
 }
 
