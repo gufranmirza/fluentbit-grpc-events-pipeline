@@ -6,6 +6,7 @@ require (
 	github.com/Shopify/sarama v1.29.0
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/fluent/fluent-bit-go v0.0.0-20201210173045-3fd1e0486df2
+	github.com/gogo/protobuf v1.2.1
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/segmentio/kafka-go v0.4.16 // indirect
 	github.com/spf13/cobra v1.1.3

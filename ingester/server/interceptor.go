@@ -63,9 +63,11 @@ func Authorize(ctx context.Context) error {
 		return status.Errorf(codes.Unauthenticated, "authorization token is not provided")
 	}
 
-	accessToken := strings.TrimSpace(values[0])
+	jwtString := values[0]
+	accessToken := strings.Split(jwtString, "Bearer ")[1]
+
 	auth := jwtauth.NewJWTAuth()
-	_, err := auth.Verify(accessToken)
+	_, err := auth.Verify(strings.TrimSpace(accessToken))
 	if err != nil {
 		return status.Errorf(codes.Unauthenticated, "token validation failed %v", err)
 	}

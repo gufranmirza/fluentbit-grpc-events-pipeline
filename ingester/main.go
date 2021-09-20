@@ -51,7 +51,6 @@ func init() {
 	RootCmd.AddCommand(serveCmd)
 	RootCmd.AddCommand(authCmd)
 
-	serveCmd.PersistentFlags().Bool("decrypt", false, "Decrypt messages received from fluentbit-agent")
 	authCmd.PersistentFlags().Int64VarP(&expiry, "expiry", "", 600, "Expiry duration of token in seconds")
 }
 

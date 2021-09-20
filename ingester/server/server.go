@@ -59,7 +59,7 @@ func (s *Server) Start() {
 	apiproto.RegisterEventServiceServer(grpcServer, s)
 
 	// read local database of access tokens
-	confBytes, err := ioutil.ReadFile("./access-tokens-db.json")
+	confBytes, err := ioutil.ReadFile("../access-tokens-db.json")
 	if err != nil {
 		log.Fatalf("Failed to access tokens db %v \n", err)
 	}

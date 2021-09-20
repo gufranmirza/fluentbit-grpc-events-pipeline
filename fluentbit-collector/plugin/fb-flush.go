@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"os"
 	"time"
 
@@ -32,13 +33,25 @@ func (plugin *Plugin) sendEvent(ts interface{}, event map[interface{}]interface{
 		encryptedEvent string
 		err            error
 	)
+
+	ev := make(map[string]interface{})
+	for key, value := range event {
+		strKey := fmt.Sprintf("%v", key)
+		ev[strKey] = value
+	}
+
+	buffer, err := json.Marshal(ev)
+	if err != nil {
+		return err
+	}
+
 	if plugin.config.EncryptionKey != "" {
-		encryptedEvent, err = encryption.Encrypt(plugin.config.EncryptionKey, fmt.Sprintf("%v", event))
+		encryptedEvent, err = encryption.Encrypt(plugin.config.EncryptionKey, string(buffer))
 		if err != nil {
 			return fmt.Errorf("failed to encrpt message %v", err)
 		}
 	} else {
-		encryptedEvent = fmt.Sprintf("%v", event)
+		encryptedEvent = string(buffer)
 	}
 
 	hostname, _ := os.Hostname()

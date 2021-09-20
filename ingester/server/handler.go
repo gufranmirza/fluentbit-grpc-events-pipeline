@@ -3,12 +3,11 @@ package server
 import (
 	"context"
 	"errors"
-	"fmt"
 	"io"
 	"log"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
+	"google.golang.org/protobuf/proto"
 )
 
 // SayHello generates response to a Ping request
@@ -27,16 +26,12 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 			return err
 		}
 
-		key, ok := s.config.AccessTokenDB[event.AccessKey]
-		if ok && s.config.Decrypt && key.EncryptionKey != "" {
-			msg, err := encryption.Decrypt(string(key.EncryptionKey), event.Message)
-			if err != nil {
-				fmt.Printf("Failed to decrypt message %v/n", err)
-			}
-			event.Message = msg
+		buffer, err := proto.Marshal(event)
+		if err != nil {
+			log.Printf("Failed to marshal event %v", err)
 		}
 
-		s.producer.Produce([]byte(fmt.Sprintf("%v", event)))
+		s.producer.Produce(buffer)
 		count++
 	}
 }

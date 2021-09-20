@@ -25,6 +25,7 @@ func NewProducer(topic string, brokers []string) (*Producer, error) {
 	config.Producer.Return.Errors = true                   // Return producer error messages
 	config.Producer.RequiredAcks = sarama.WaitForLocal     // Only wait for the leader to ack
 	config.Producer.Compression = sarama.CompressionSnappy // Compress messages
+	config.Producer.MaxMessageBytes = 8 * 1024 * 1024
 
 	config.Producer.Retry.Backoff = time.Second * 30 // Next retry wait time
 	config.Producer.Retry.Max = 5                    // Max retries to produce message
