@@ -7,6 +7,7 @@ import (
 	"log"
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -29,6 +30,10 @@ func (s *Server) SendEvent(stream apiproto.EventService_SendEventServer) error {
 		buffer, err := proto.Marshal(event)
 		if err != nil {
 			log.Printf("Failed to marshal event %v", err)
+		}
+
+		if s.config.Print {
+			utils.Print(event, s.config.Decrypt)
 		}
 
 		s.producer.Produce(buffer)

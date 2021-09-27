@@ -23,12 +23,12 @@ var (
 
 // serveCmd represents the serve command
 var serveCmd = &cobra.Command{
-	Use:   "rpc-server",
+	Use:   "api",
 	Short: "Start Ingester API Server",
 	Long:  `Start Ingester API Server`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fstatus, _ := cmd.Flags().GetBool("decrypt")
-		server := server.NewServer(&server.Config{Decrypt: fstatus})
+		fstatus, _ := cmd.Flags().GetBool("print-events")
+		server := server.NewServer(&server.Config{Print: fstatus})
 		server.Start()
 	},
 }
@@ -51,6 +51,7 @@ func init() {
 	RootCmd.AddCommand(serveCmd)
 	RootCmd.AddCommand(authCmd)
 
+	serveCmd.PersistentFlags().Bool("print-events", false, "Print events as received from Fluentbit Collector")
 	authCmd.PersistentFlags().Int64VarP(&expiry, "expiry", "", 600, "Expiry duration of token in seconds")
 }
 

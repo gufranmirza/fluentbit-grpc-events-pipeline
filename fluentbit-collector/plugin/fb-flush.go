@@ -34,6 +34,7 @@ func (plugin *Plugin) sendEvent(ts interface{}, event map[interface{}]interface{
 		err            error
 	)
 
+	// conversion
 	ev := make(map[string]interface{})
 	for key, value := range event {
 		strKey := fmt.Sprintf("%v", key)

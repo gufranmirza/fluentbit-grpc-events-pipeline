@@ -2,7 +2,6 @@ package consumer
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"log"
 
@@ -10,6 +9,7 @@ import (
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 
@@ -34,7 +34,7 @@ func (c *Consumer) Start() {
 		}
 
 		if c.config.Print {
-			c.Print(event)
+			utils.Print(event, c.config.Decrypt)
 		}
 	}
 }
@@ -48,34 +48,4 @@ func (c *Consumer) Decrypt(event *apiproto.Event) {
 		}
 		event.Message = fmt.Sprintf("%v", msg)
 	}
-}
-
-func (c *Consumer) Print(event *apiproto.Event) {
-	if c.config.Decrypt {
-		message := make(map[string]interface{})
-		err := json.Unmarshal([]byte(event.Message), &message)
-		if err != nil {
-			log.Printf("Failed to marshal message %v", err.Error())
-		}
-
-		type m struct {
-			*apiproto.Event
-			Message map[string]interface{} `json:"message"`
-		}
-
-		buf, err := json.MarshalIndent(m{Event: event, Message: message}, "", "  ")
-		if err != nil {
-			log.Printf("Failed to marshal message %v", err.Error())
-		}
-
-		log.Printf("%s", string(buf))
-	} else {
-		buf, err := json.MarshalIndent(event, "", "  ")
-		if err != nil {
-			log.Printf("Failed to marshal message %v", err.Error())
-		}
-
-		log.Printf("%s", string(buf))
-	}
-
 }

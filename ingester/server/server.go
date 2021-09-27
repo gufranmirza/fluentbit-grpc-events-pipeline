@@ -16,6 +16,7 @@ import (
 // Config holds the server specific config
 type Config struct {
 	Decrypt       bool                       // Decrypt messages received from fluentbit-agent
+	Print         bool                       // Print messages to console
 	AccessTokenDB map[string]apiproto.Config // List of access tokens and their config
 }
 
