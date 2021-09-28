@@ -7,6 +7,7 @@ import (
 
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
 	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
+	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
 )
 
 // Config holds the server specific config
@@ -20,12 +21,14 @@ type Config struct {
 type Consumer struct {
 	config   *Config
 	consumer *kafka.ConsumerImpl
+	writer   *utils.Writer
 }
 
 // returns consumer impl
 func NewConsumer(c *Config) *Consumer {
 	consumer := &Consumer{
 		config: c,
+		writer: utils.New(),
 	}
 
 	// read local database of access tokens
@@ -49,5 +52,6 @@ func NewConsumer(c *Config) *Consumer {
 }
 
 func (c *Consumer) CloseConsumer() error {
+	c.writer.Close()
 	return c.consumer.Close()
 }

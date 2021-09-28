@@ -26,7 +26,7 @@ func (c *Consumer) Start() {
 		event := &apiproto.Event{}
 		err := proto.Unmarshal(message.Value, event)
 		if err != nil {
-			log.Fatalln("Failed to unmarshal event:", err)
+			log.Printf("Failed to unmarshal event: %v", err)
 		}
 
 		if c.config.Decrypt {
@@ -35,6 +35,11 @@ func (c *Consumer) Start() {
 
 		if c.config.Print {
 			utils.Print(event, c.config.Decrypt)
+		}
+
+		err = c.writer.Write(event, c.config.Decrypt)
+		if err != nil {
+			log.Printf("Failed to write event with error %v", err)
 		}
 	}
 }
