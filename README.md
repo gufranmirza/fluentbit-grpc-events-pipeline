@@ -1,13 +1,11 @@
-# fargo-fb-poc [WIP....!!!]
-
-### Design and Arch
+# Design and Arch
 Below is the very hign level design of the project. It uses below tech stack
 - GRPC - Uses GRPC to communicate between FB-Agent and  Ingester
 - Kafka - Events are stored in Kafka - Persistent storage
 
 ![](images/untitled@2x.png)
 
-### Fluentbit Agent
+# Fluentbit Agent
 Fluentbit-Agent is used to collect events from the host system. A Fluentbit plugin is written that communicates with the Ingester API and pushes the events to it.  
 - [Plugin Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/fluentbit-collector/plugin)
 
@@ -20,6 +18,7 @@ When FB-Agent is started it does the following
 - Exchange the config - requires `ACCESS_TOKEN`
 - Stream events to ingester - requires `ACCESS_TOKEN`
 
+
 #### Config Exchange 
 Below is the diagram that shows the config exchange between the FB-Agent and Ingester. Config exchange requires the valid `ACCESS_TOKEN` and `ACCESS_KEY`. It accepst the `ACCESS_KEY` as request parameter.
 - You can find the whole [Config Object here](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/api/api.proto#L21)
@@ -31,10 +30,12 @@ It uses the Streaming RPC to stream events from the FB-Agent to the ingester API
 - You can find the whole [Event Object here](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/api/api.proto#L8)
 ![](images/Events@2x.png)
 
+
 #### Features 
 - AES encryption
 - Server side TLS 
 - Streaming RPC - Events 
+
 
 #### Open Issues
 - Dynamic reloading FB-Agent Config 
