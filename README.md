@@ -42,3 +42,23 @@ It uses the Streaming RPC to stream events from the FB-Agent to the ingester API
 - Handling Auth Errors
 - Handling Connectivity Error
 - Handling Streaming Errors/timeouts 
+
+# Ingester
+Ingester is responsible for running the RPC server. FB-Agent sends the events to the Ingester via streaming RPC. Its also has the config for each FB-Agent. It validates the incoming request with passed `ACCESS_TOKEN` and pushes the events to the Kafka topic `plogger-kafka` 
+
+- [Ingester Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/ingester)
+
+It does the following 
+- Host the config for FB-Agents
+- Accept the incoming Events from FB-Agents
+- Perform JWT Authentication
+- Push Events to Kafka topic `plogger-kafka`
+
+NOTE: Temporarily it hosts the config for the FB-Agent. Ideally it should be stored in seperate config service. It loads the config from this [JSON file](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/access-tokens-db.json). Where each key is `ACCESS_KEY` that can be used with FB-Agent
+
+IDEA: Some king of hash can be calculated using customer event data that pushes the events to specific partiton of the kafka topic, and then only one router can be spawn to consume events from that partiton only 
+
+#### Open Issues
+- Decouple config management
+- Handling Auth Errors
+- Handling Kafka Erros
