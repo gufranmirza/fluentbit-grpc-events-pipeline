@@ -74,3 +74,47 @@ Router consumes the events from the kafka topic `plogger-kafka` and writes it to
 
 #### Open Issues
 - Routing to the different targets
+
+# Running The Project 
+#### Start Kafka
+Go to the project root and run the following command to start the kafka container on docker. Please note that container data is not stored on the disk for now. 
+```
+docker-compose -f kafka-docker-compose.yaml up -d
+```
+
+#### Start the ingester
+1. Go to the project root and run the following command  to build it
+```
+cd ingester
+go build .
+```
+
+2. Run the following command to generate the ACCESS_TOKEN. It will be required when you start the FB-Agent
+```
+./ingester access-token --expiry=100000000000 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjkzODc1OTk5ODAsImlhdCI6MTYyMTMyMDM0OSwicm9sZSI6IiJ9.8Rpy5M2l-BJ-pD75q8UukLKmSIJvt-O-DytkvtOwbFY
+```
+
+Available commands 
+```
+Usage:
+  Ingester access-token [flags]
+
+Flags:
+      --expiry int   Expiry duration of token in seconds (default 600)
+  -h, --help         help for access-token
+```
+3. Run the following command to start the Ingester Server 
+```
+./ingester api --print-events 
+```
+
+Available commands
+```
+Usage:
+  Ingester api [flags]
+
+Flags:
+  -h, --help           help for api
+      --print-events   Print events as received from Fluentbit-Agent
+```
