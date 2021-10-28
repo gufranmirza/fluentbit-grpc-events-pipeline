@@ -76,18 +76,19 @@ Router consumes the events from the kafka topic `plogger-kafka` and writes it to
 - Routing to the different targets
 
 # Running The Project 
-#### Start Kafka
+### Start Kafka
 Go to the project root and run the following command to start the kafka container on docker. Please note that container data is not stored on the disk for now. 
 ```
 docker-compose -f kafka-docker-compose.yaml up -d
 ```
 
-#### Start the ingester
+### Start the ingester
 1. Go to the project root and run the following command  to build it
 ```
 cd ingester
 go build .
 ```
+
 
 2. Run the following command to generate the ACCESS_TOKEN. It will be required when you start the FB-Agent
 ```
@@ -104,6 +105,8 @@ Flags:
       --expiry int   Expiry duration of token in seconds (default 600)
   -h, --help         help for access-token
 ```
+
+
 3. Run the following command to start the Ingester Server 
 ```
 ./ingester api --print-events 
@@ -118,3 +121,45 @@ Flags:
   -h, --help           help for api
       --print-events   Print events as received from Fluentbit-Agent
 ```
+
+### Start the router
+1. Open a new terminal, go to the root of the project and run the following command to build it
+```
+cd router
+go build .
+```
+
+2. Run the following command to start the router 
+```
+./router consumer --print-events=true --decrypt-events=true
+```
+
+Available commands
+```
+Usage:
+  Router consumer [flags]
+
+Flags:
+      --decrypt-events   Decrypt events received from kafka - Events written to file also will be decrypted
+  -h, --help             help for consumer
+      --print-events     Print events as received from Kafka
+```
+
+### Start FB-Agent
+1. Open a new terminal, go to the root of the project and run the following command to build it
+```
+docker build . -t fluentbit-collector -f Dockerfile
+```
+
+- `ACCESS_TOKEN` - Use the access token you created while starting the ingester
+- `ACCESS_KEY` - Use any of the key from this [JSON file](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/access-tokens-db.json)
+
+2. Run following command to run the container image
+```
+docker run -e ACCESS_KEY=9c60f26f-5b6c-4c80-b5f5-625bf965b6a6 -e ACCESS_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjkzODc1OTk5ODAsImlhdCI6MTYyMTMyMDM0OSwicm9sZSI6IiJ9.8Rpy5M2l-BJ-pD75q8UukLKmSIJvt-O-DytkvtOwbFY -it --rm fluentbit-collector
+```
+
+- Observer the terminals to see the activity. Log files ${ACCESS_KEY}.log will be created inside the project root.
+- You can spin up more FB-Agent instances with different ACCESS_KEYS
+
+Happy Hacking :-)
