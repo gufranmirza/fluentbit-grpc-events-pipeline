@@ -131,7 +131,7 @@ go build .
 
 2. Run the following command to start the router 
 ```
-./router consumer --print-events=true --decrypt-events=true
+./router consumer --print-events --decrypt-events
 ```
 
 Available commands
