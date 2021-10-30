@@ -2,11 +2,17 @@
     "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6" : {
         "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
         "EncryptionKey": "883EC28EBA9A36A386FA351FBC482B34",
-        "UserID": "2134558"
+        "UserID": "2134558",
+        "targets": [
+            {"file" : "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6.log"}
+        ]
     },
     "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8" : {
         "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
         "EncryptionKey": "883EC28EBA9A36A386FA351FBC482B34",
-        "UserID": "1134412"
+        "UserID": "1134412",
+        "targets": [
+            {"file" : "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8.log"}
+        ]
     }
 }

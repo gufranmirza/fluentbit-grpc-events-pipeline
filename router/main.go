@@ -32,7 +32,7 @@ var serveCmd = &cobra.Command{
 func init() {
 	RootCmd.AddCommand(serveCmd)
 
-	serveCmd.PersistentFlags().Bool("decrypt-events", false, "Decrypt events received from kafka")
+	serveCmd.PersistentFlags().Bool("decrypt-events", false, "Decrypt events received from kafka - Events written to file also will be decrypted")
 	serveCmd.PersistentFlags().Bool("print-events", false, "Print events as received from Kafka")
 }
 

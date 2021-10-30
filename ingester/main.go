@@ -35,8 +35,8 @@ var serveCmd = &cobra.Command{
 
 var authCmd = &cobra.Command{
 	Use:   "access-token",
-	Short: "Generate a JWT Access Token for Collector Agent",
-	Long:  `Generate a JWT Access Token for Collector Agent`,
+	Short: "Generate a JWT Access Token for FB-Agent",
+	Long:  `Generate a JWT Access Token for FB-Agent`,
 	Run: func(cmd *cobra.Command, args []string) {
 		auth := jwtauth.NewJWTAuth()
 		token, err := auth.Generate(&jwtauth.Claims{}, time.Duration(expiry*int64(time.Second)))
@@ -51,7 +51,7 @@ func init() {
 	RootCmd.AddCommand(serveCmd)
 	RootCmd.AddCommand(authCmd)
 
-	serveCmd.PersistentFlags().Bool("print-events", false, "Print events as received from Fluentbit Collector")
+	serveCmd.PersistentFlags().Bool("print-events", false, "Print events as received from Fluentbit-Agent")
 	authCmd.PersistentFlags().Int64VarP(&expiry, "expiry", "", 600, "Expiry duration of token in seconds")
 }
 
