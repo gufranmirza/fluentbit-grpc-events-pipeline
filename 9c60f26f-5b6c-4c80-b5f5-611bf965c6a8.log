@@ -1,0 +1,331 @@
+{
+  "timestamp": {
+    "seconds": 1621322657101301000,
+    "nanos": -758070008
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "cpu",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.8333333333333333,
+    "system_p": 1.3333333333333333,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322658090902700,
+    "nanos": 231531692
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "cpu",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322659090753600,
+    "nanos": 1231382592
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "cpu",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322660091169500,
+    "nanos": -2063168804
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "cpu",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 1,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322661091734100,
+    "nanos": -1062604204
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "cpu",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 1,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322657101377100,
+    "nanos": -757993908
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "memory",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "Mem.free": 425700,
+    "Mem.total": 6862744,
+    "Mem.used": 6437044,
+    "Swap.free": 1021268,
+    "Swap.total": 1048572,
+    "Swap.used": 27304
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322658090965000,
+    "nanos": 231593992
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "memory",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "Mem.free": 425700,
+    "Mem.total": 6862744,
+    "Mem.used": 6437044,
+    "Swap.free": 1021268,
+    "Swap.total": 1048572,
+    "Swap.used": 27304
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322659090815900,
+    "nanos": 1231444892
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "memory",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "Mem.free": 425700,
+    "Mem.total": 6862744,
+    "Mem.used": 6437044,
+    "Swap.free": 1021268,
+    "Swap.total": 1048572,
+    "Swap.used": 27304
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322660091484500,
+    "nanos": -2062853804
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "memory",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "Mem.free": 425700,
+    "Mem.total": 6862744,
+    "Mem.used": 6437044,
+    "Swap.free": 1021268,
+    "Swap.total": 1048572,
+    "Swap.used": 27304
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322661091780500,
+    "nanos": -1062557804
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "memory",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "Mem.free": 425708,
+    "Mem.total": 6862744,
+    "Mem.used": 6437036,
+    "Swap.free": 1021268,
+    "Swap.total": 1048572,
+    "Swap.used": 27304
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322657101479800,
+    "nanos": -757891208
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "netif",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "eth0.rx.bytes": 1449,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 18,
+    "eth0.tx.bytes": 9902,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 18
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322658091079100,
+    "nanos": 231708092
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "netif",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322659090930900,
+    "nanos": 1231559892
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "netif",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322660091579700,
+    "nanos": -2062758604
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "netif",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1621322661091858100,
+    "nanos": -1062480204
+  },
+  "agent_id": "9c721c68d07f",
+  "tag": "netif",
+  "UserID": "1134412",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-611bf965c6a8",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}
