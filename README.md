@@ -5,6 +5,15 @@ Below is the very hign level design of the project. It uses below tech stack
 
 ![](images/untitled@2x.png)
 
+
+**Table of Contents**
+
+- [Fluentbit Agent](#fluentbit-agent)
+- [Ingester](#ingester)
+- [Router](#router)
+- [Running The Project](#running-the-project)
+
+
 # Fluentbit Agent
 Fluentbit-Agent is used to collect events from the host system. A Fluentbit plugin is written that communicates with the Ingester API and pushes the events to it.  
 - [Plugin Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/fluentbit-collector/plugin)
