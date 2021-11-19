@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

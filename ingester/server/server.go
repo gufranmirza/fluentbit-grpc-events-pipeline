@@ -7,8 +7,8 @@ import (
 	"log"
 	"net"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/kafka"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )
@@ -70,7 +70,7 @@ func (s *Server) Start() {
 	}
 
 	// start kafka producer
-	producer, err := kafka.NewProducer("plogger-kafka", []string{"127.0.0.1:9092"})
+	producer, err := kafka.NewProducer("fb-kafka", []string{"127.0.0.1:9092"})
 	if err != nil {
 		log.Fatalf("Failed to connect to kafka %v \n", err)
 	}

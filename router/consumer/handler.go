@@ -6,10 +6,10 @@ import (
 	"log"
 
 	"github.com/Shopify/sarama"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/encryption"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/kafka"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/router/consumer"
 	"github.com/spf13/cobra"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/router/consumer"
 )
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
 	Use:   "Router",
-	Short: "Router implementation for PLogger",
+	Short: "Router implementation for FB-Agent",
 	Long:  `Starts consuming events from kafka and write to specified destination`,
 }
 

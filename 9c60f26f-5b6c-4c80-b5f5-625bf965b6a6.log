@@ -360,4 +360,5563 @@
     "eth0.tx.errors": 0,
     "eth0.tx.packets": 0
   }
+}{
+  "timestamp": {
+    "seconds": 1637306646747150100,
+    "nanos": 1807742740
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306647746922300,
+    "nanos": -1487452356
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 3,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 2,
+    "system_p": 1.6666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306648746580700,
+    "nanos": -487793956
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 2,
+    "system_p": 1.5,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306649747290500,
+    "nanos": 512915844
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 2,
+    "system_p": 1.6666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306646747288500,
+    "nanos": 1807881140
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 502712,
+    "Mem.total": 6860740,
+    "Mem.used": 6358028,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306647746990900,
+    "nanos": -1487383756
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 502964,
+    "Mem.total": 6860740,
+    "Mem.used": 6357776,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306648746736100,
+    "nanos": -487638556
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 503912,
+    "Mem.total": 6860740,
+    "Mem.used": 6356828,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306649747383300,
+    "nanos": 513008644
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 504920,
+    "Mem.total": 6860740,
+    "Mem.used": 6355820,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306647747109900,
+    "nanos": -1487264756
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 160,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306648746821800,
+    "nanos": -487552856
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 90,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306649747552000,
+    "nanos": 513177344
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306650770527000,
+    "nanos": 1536152344
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 3,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 2,
+    "cpu_p": 1.8333333333333333,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306651747145400,
+    "nanos": -1782196552
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 7,
+    "cpu0.p_system": 4,
+    "cpu0.p_user": 3,
+    "cpu1.p_cpu": 9,
+    "cpu1.p_system": 5,
+    "cpu1.p_user": 4,
+    "cpu2.p_cpu": 11,
+    "cpu2.p_system": 4,
+    "cpu2.p_user": 7,
+    "cpu3.p_cpu": 9,
+    "cpu3.p_system": 5,
+    "cpu3.p_user": 4,
+    "cpu4.p_cpu": 6,
+    "cpu4.p_system": 3,
+    "cpu4.p_user": 3,
+    "cpu5.p_cpu": 11,
+    "cpu5.p_system": 5,
+    "cpu5.p_user": 6,
+    "cpu_p": 8.833333333333334,
+    "system_p": 4.5,
+    "user_p": 4.333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306652751341100,
+    "nanos": -778000852
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306653746639300,
+    "nanos": 217297348
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306654747281900,
+    "nanos": 1217939948
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306650770710400,
+    "nanos": 1536335744
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 504416,
+    "Mem.total": 6860740,
+    "Mem.used": 6356324,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306651747204400,
+    "nanos": -1782137552
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 499148,
+    "Mem.total": 6860740,
+    "Mem.used": 6361592,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306652751396700,
+    "nanos": -777945252
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 499468,
+    "Mem.total": 6860740,
+    "Mem.used": 6361272,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306653746812400,
+    "nanos": 217470448
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 499616,
+    "Mem.total": 6860740,
+    "Mem.used": 6361124,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306654747349400,
+    "nanos": 1218007448
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 499720,
+    "Mem.total": 6860740,
+    "Mem.used": 6361020,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306650771056000,
+    "nanos": 1536681344
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1343,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 17,
+    "eth0.tx.bytes": 7365,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 12
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306651747320100,
+    "nanos": -1782021852
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306652751495500,
+    "nanos": -777846452
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 112,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 42,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306653746897700,
+    "nanos": 217555748
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306654747472100,
+    "nanos": 1218130148
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306655766049700,
+    "nanos": -2058259548
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 4,
+    "cpu2.p_system": 3,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 4,
+    "cpu3.p_system": 3,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 2.8333333333333335,
+    "system_p": 2,
+    "user_p": 0.8333333333333334
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306656747254000,
+    "nanos": -1077055248
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306657749202200,
+    "nanos": -75107048
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306658749381000,
+    "nanos": 925071752
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 3,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306659748403100,
+    "nanos": 1924093852
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 3,
+    "cpu0.p_system": 3,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 4,
+    "cpu2.p_system": 3,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 3,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 3,
+    "cpu4.p_system": 3,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 4,
+    "cpu5.p_system": 3,
+    "cpu5.p_user": 1,
+    "cpu_p": 3.5,
+    "system_p": 2.6666666666666665,
+    "user_p": 0.8333333333333334
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306655766129000,
+    "nanos": -2058180248
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 498240,
+    "Mem.total": 6860740,
+    "Mem.used": 6362500,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306656747322700,
+    "nanos": -1076986548
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 498176,
+    "Mem.total": 6860740,
+    "Mem.used": 6362564,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306657749259000,
+    "nanos": -75050248
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 498176,
+    "Mem.total": 6860740,
+    "Mem.used": 6362564,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306658749455600,
+    "nanos": 925146352
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 498176,
+    "Mem.total": 6860740,
+    "Mem.used": 6362564,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306659748471300,
+    "nanos": 1924162052
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 498176,
+    "Mem.total": 6860740,
+    "Mem.used": 6362564,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306655766453500,
+    "nanos": -2057855748
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1473,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 19,
+    "eth0.tx.bytes": 10150,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 21
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306656747445200,
+    "nanos": -1076864048
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306657749360100,
+    "nanos": -74949148
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306658749584900,
+    "nanos": 925275652
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306659748594900,
+    "nanos": 1924285652
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306660756300700,
+    "nanos": -1362975844
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306661748409200,
+    "nanos": -370867344
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306662747041000,
+    "nanos": 627764456
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.5,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306663747582700,
+    "nanos": 1628306156
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306664747483200,
+    "nanos": -1666760640
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306660756739100,
+    "nanos": -1362537444
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497924,
+    "Mem.total": 6860740,
+    "Mem.used": 6362816,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306661748466800,
+    "nanos": -370809744
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497956,
+    "Mem.total": 6860740,
+    "Mem.used": 6362784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306662747092800,
+    "nanos": 627816256
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497956,
+    "Mem.total": 6860740,
+    "Mem.used": 6362784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306663747689600,
+    "nanos": 1628413056
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497956,
+    "Mem.total": 6860740,
+    "Mem.used": 6362784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306664747560400,
+    "nanos": -1666683440
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497956,
+    "Mem.total": 6860740,
+    "Mem.used": 6362784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306660756982300,
+    "nanos": -1362294244
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1689,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 23,
+    "eth0.tx.bytes": 10134,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 20
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306661748576600,
+    "nanos": -370699944
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 70,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306662747182200,
+    "nanos": 627905656
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306663747813100,
+    "nanos": 1628536556
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306664747694800,
+    "nanos": -1666549040
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306665759407300,
+    "nanos": -654836540
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 16,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 14,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 4.166666666666667,
+    "system_p": 1.3333333333333333,
+    "user_p": 2.8333333333333335
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306666746539100,
+    "nanos": 332295260
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306667746570900,
+    "nanos": 1332327060
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 2,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 2.1666666666666665,
+    "system_p": 1.5,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306668748429900,
+    "nanos": -1960781236
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306669747098000,
+    "nanos": -962113136
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306665759471700,
+    "nanos": -654772140
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497956,
+    "Mem.total": 6860740,
+    "Mem.used": 6362784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306666746589100,
+    "nanos": 332345260
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497972,
+    "Mem.total": 6860740,
+    "Mem.used": 6362768,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306667746629700,
+    "nanos": 1332385860
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497720,
+    "Mem.total": 6860740,
+    "Mem.used": 6363020,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306668748499000,
+    "nanos": -1960712136
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497972,
+    "Mem.total": 6860740,
+    "Mem.used": 6362768,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306669747168700,
+    "nanos": -962042436
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497972,
+    "Mem.total": 6860740,
+    "Mem.used": 6362768,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306665759605400,
+    "nanos": -654638440
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1557,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 20,
+    "eth0.tx.bytes": 10005,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 20
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306666746775300,
+    "nanos": 332531460
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306667746846500,
+    "nanos": 1332602660
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306668748627200,
+    "nanos": -1960583936
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306669747388600,
+    "nanos": -961822536
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306670723134400,
+    "nanos": 13923264
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.6666666666666667,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306671712889400,
+    "nanos": 1003678264
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 1,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306672714110000,
+    "nanos": 2004898864
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306673712940400,
+    "nanos": -1291238032
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306674713151000,
+    "nanos": -291027432
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306670723192100,
+    "nanos": 13980964
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497720,
+    "Mem.total": 6860740,
+    "Mem.used": 6363020,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306671712940200,
+    "nanos": 1003729064
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497404,
+    "Mem.total": 6860740,
+    "Mem.used": 6363336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306672714180300,
+    "nanos": 2004969164
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497404,
+    "Mem.total": 6860740,
+    "Mem.used": 6363336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306673712983400,
+    "nanos": -1291195032
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497404,
+    "Mem.total": 6860740,
+    "Mem.used": 6363336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306674713201200,
+    "nanos": -290977232
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497404,
+    "Mem.total": 6860740,
+    "Mem.used": 6363336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306670723442500,
+    "nanos": 14231364
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1795,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 24,
+    "eth0.tx.bytes": 10221,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 21
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306671713061000,
+    "nanos": 1003849864
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306672714310400,
+    "nanos": 2005099264
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306673713071800,
+    "nanos": -1291106632
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306674713290300,
+    "nanos": -290888132
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306675730368300,
+    "nanos": 726189868
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306676713221000,
+    "nanos": 1709042568
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306677716724800,
+    "nanos": -1582420928
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306678712906200,
+    "nanos": -586239528
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306679713395700,
+    "nanos": 414249972
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306675730518400,
+    "nanos": 726339968
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497404,
+    "Mem.total": 6860740,
+    "Mem.used": 6363336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306676713289200,
+    "nanos": 1709110768
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497184,
+    "Mem.total": 6860740,
+    "Mem.used": 6363556,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306677716944600,
+    "nanos": -1582201128
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497184,
+    "Mem.total": 6860740,
+    "Mem.used": 6363556,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306678712986800,
+    "nanos": -586158928
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497184,
+    "Mem.total": 6860740,
+    "Mem.used": 6363556,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306679713464100,
+    "nanos": 414318372
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497184,
+    "Mem.total": 6860740,
+    "Mem.used": 6363556,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306675730763300,
+    "nanos": 726584868
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1957,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 27,
+    "eth0.tx.bytes": 10317,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 23
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306676713427600,
+    "nanos": 1709249168
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306677717066300,
+    "nanos": -1582079428
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306678713122000,
+    "nanos": -586023728
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306679713589900,
+    "nanos": 414444172
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 70,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306680723844000,
+    "nanos": 1424698272
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 2,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306681712614500,
+    "nanos": -1881498524
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306682712984900,
+    "nanos": -881128124
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.5,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306683716141300,
+    "nanos": 122028276
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306684713033700,
+    "nanos": 1118920676
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 3,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306680724285700,
+    "nanos": 1425139972
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497184,
+    "Mem.total": 6860740,
+    "Mem.used": 6363556,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306681712766000,
+    "nanos": -1881347024
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497216,
+    "Mem.total": 6860740,
+    "Mem.used": 6363524,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306682713022300,
+    "nanos": -881090724
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497216,
+    "Mem.total": 6860740,
+    "Mem.used": 6363524,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306683716210200,
+    "nanos": 122097176
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497216,
+    "Mem.total": 6860740,
+    "Mem.used": 6363524,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306684713090100,
+    "nanos": 1118977076
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 497216,
+    "Mem.total": 6860740,
+    "Mem.used": 6363524,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306680724862600,
+    "nanos": 1425716872
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1797,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 25,
+    "eth0.tx.bytes": 10025,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 20
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306681712848300,
+    "nanos": -1881264724
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 42,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 96,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 2
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306682713111700,
+    "nanos": -881001324
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306683716345000,
+    "nanos": 122231976
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306684713192000,
+    "nanos": 1119078976
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306685722558900,
+    "nanos": 2128445876
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306686712611000,
+    "nanos": -1176469320
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306687712891500,
+    "nanos": -176188820
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.3333333333333333,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306688716348600,
+    "nanos": 827268280
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306689715390400,
+    "nanos": 1826310080
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306690712853800,
+    "nanos": -1471193816
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.6666666666666666,
+    "user_p": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306685722628800,
+    "nanos": 2128515776
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496964,
+    "Mem.total": 6860740,
+    "Mem.used": 6363776,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306686712661100,
+    "nanos": -1176419220
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496932,
+    "Mem.total": 6860740,
+    "Mem.used": 6363808,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306687712941100,
+    "nanos": -176139220
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496932,
+    "Mem.total": 6860740,
+    "Mem.used": 6363808,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306688716472700,
+    "nanos": 827392380
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496932,
+    "Mem.total": 6860740,
+    "Mem.used": 6363808,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306689715459000,
+    "nanos": 1826378680
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496932,
+    "Mem.total": 6860740,
+    "Mem.used": 6363808,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306690712902400,
+    "nanos": -1471145216
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496932,
+    "Mem.total": 6860740,
+    "Mem.used": 6363808,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306685722888100,
+    "nanos": 2128775076
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 2011,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 28,
+    "eth0.tx.bytes": 10179,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 21
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306686712875300,
+    "nanos": -1176205020
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306687713027600,
+    "nanos": -176052720
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306688716597400,
+    "nanos": 827517080
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306689715582400,
+    "nanos": 1826502080
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306690713005900,
+    "nanos": -1471041716
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306691713133600,
+    "nanos": -470914016
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.8333333333333333,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306692712616700,
+    "nanos": 528569084
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 3,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306693713075900,
+    "nanos": 1529028284
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306694714292900,
+    "nanos": -1764722012
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306691713211400,
+    "nanos": -470836216
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496900,
+    "Mem.total": 6860740,
+    "Mem.used": 6363840,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306692712755300,
+    "nanos": 528707684
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496900,
+    "Mem.total": 6860740,
+    "Mem.used": 6363840,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306693713155900,
+    "nanos": 1529108284
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496900,
+    "Mem.total": 6860740,
+    "Mem.used": 6363840,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306694714364200,
+    "nanos": -1764650712
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496900,
+    "Mem.total": 6860740,
+    "Mem.used": 6363840,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306691713331900,
+    "nanos": -470715716
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1797,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 25,
+    "eth0.tx.bytes": 11808,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 22
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306692712872600,
+    "nanos": 528824984
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306693713257700,
+    "nanos": 1529210084
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306694714494600,
+    "nanos": -1764520312
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306695730751500,
+    "nanos": -748263412
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 3,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 3,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 1,
+    "cpu_p": 2,
+    "system_p": 1.6666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306696715256600,
+    "nanos": 236241688
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 2,
+    "cpu2.p_cpu": 4,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 2,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.6666666666666667,
+    "system_p": 1,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306697714409400,
+    "nanos": 1235394488
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306698713180300,
+    "nanos": -2060801908
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 5,
+    "cpu0.p_system": 4,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 3,
+    "system_p": 2.5,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306699714114200,
+    "nanos": -1059868008
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306695730822100,
+    "nanos": -748192812
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496900,
+    "Mem.total": 6860740,
+    "Mem.used": 6363840,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306696715305000,
+    "nanos": 236290088
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496648,
+    "Mem.total": 6860740,
+    "Mem.used": 6364092,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306697714466500,
+    "nanos": 1235451588
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496648,
+    "Mem.total": 6860740,
+    "Mem.used": 6364092,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306698713248500,
+    "nanos": -2060733708
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494632,
+    "Mem.total": 6860740,
+    "Mem.used": 6366108,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306699714182300,
+    "nanos": -1059799908
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494600,
+    "Mem.total": 6860740,
+    "Mem.used": 6366140,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306695730939800,
+    "nanos": -748075112
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1549,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 20,
+    "eth0.tx.bytes": 8105,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 16
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306696715397700,
+    "nanos": 236382788
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306697714613900,
+    "nanos": 1235598988
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306698713373700,
+    "nanos": -2060608508
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306699714308200,
+    "nanos": -1059674008
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306700688341400,
+    "nanos": -85640808
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306701679142600,
+    "nanos": 905160392
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306702680269100,
+    "nanos": 1906286892
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306703679520300,
+    "nanos": -1389429204
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 2,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306704679185800,
+    "nanos": -389763704
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306700688522800,
+    "nanos": -85459408
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494600,
+    "Mem.total": 6860740,
+    "Mem.used": 6366140,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306701679200300,
+    "nanos": 905218092
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494600,
+    "Mem.total": 6860740,
+    "Mem.used": 6366140,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306702680337300,
+    "nanos": 1906355092
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494600,
+    "Mem.total": 6860740,
+    "Mem.used": 6366140,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306703679684800,
+    "nanos": -1389264704
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494600,
+    "Mem.total": 6860740,
+    "Mem.used": 6366140,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306704679254200,
+    "nanos": -389695304
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494348,
+    "Mem.total": 6860740,
+    "Mem.used": 6366392,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306700688599800,
+    "nanos": -85382408
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1635,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 22,
+    "eth0.tx.bytes": 9859,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 18
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306701679356900,
+    "nanos": 905374692
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306702680465900,
+    "nanos": 1906483692
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306703679946300,
+    "nanos": -1389003204
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306704679382800,
+    "nanos": -389566704
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306705696061300,
+    "nanos": 627111796
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1.1666666666666667,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306706680001000,
+    "nanos": 1611051496
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 3,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 3,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 4,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 2,
+    "cpu_p": 2.5,
+    "system_p": 1.6666666666666667,
+    "user_p": 0.8333333333333334
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306707679380100,
+    "nanos": -1684536700
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 0,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.6666666666666666,
+    "user_p": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306708679616300,
+    "nanos": -684300500
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.5,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306709681389900,
+    "nanos": 317473100
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 3,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306705696127500,
+    "nanos": 627177996
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 494348,
+    "Mem.total": 6860740,
+    "Mem.used": 6366392,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306706680070500,
+    "nanos": 1611120996
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492772,
+    "Mem.total": 6860740,
+    "Mem.used": 6367968,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306707679465100,
+    "nanos": -1684451700
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492756,
+    "Mem.total": 6860740,
+    "Mem.used": 6367984,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306708679686300,
+    "nanos": -684230500
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492756,
+    "Mem.total": 6860740,
+    "Mem.used": 6367984,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306709681460000,
+    "nanos": 317543200
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492756,
+    "Mem.total": 6860740,
+    "Mem.used": 6367984,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306705696324800,
+    "nanos": 627375296
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1849,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 25,
+    "eth0.tx.bytes": 10023,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 18
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306706680226600,
+    "nanos": 1611277096
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306707679561200,
+    "nanos": -1684355600
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306708679974300,
+    "nanos": -683942500
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306709681595300,
+    "nanos": 317678500
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306710689439400,
+    "nanos": 1325522600
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306711679324600,
+    "nanos": -1979559496
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 3,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306712678662900,
+    "nanos": -980221196
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 5,
+    "cpu0.p_system": 4,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 3,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 2,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 3,
+    "cpu5.p_system": 3,
+    "cpu5.p_user": 0,
+    "cpu_p": 3.1666666666666665,
+    "system_p": 2.5,
+    "user_p": 0.6666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306713680384700,
+    "nanos": 21500604
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 3,
+    "cpu5.p_system": 2,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306710689506800,
+    "nanos": 1325590000
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492756,
+    "Mem.total": 6860740,
+    "Mem.used": 6367984,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306711679398500,
+    "nanos": -1979485596
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 492788,
+    "Mem.total": 6860740,
+    "Mem.used": 6367952,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306712678895500,
+    "nanos": -979988596
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 493040,
+    "Mem.total": 6860740,
+    "Mem.used": 6367700,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306713680453700,
+    "nanos": 21569604
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 493040,
+    "Mem.total": 6860740,
+    "Mem.used": 6367700,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306710689605100,
+    "nanos": 1325688300
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1916,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 26,
+    "eth0.tx.bytes": 10508,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 28
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306711679514300,
+    "nanos": -1979369796
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 135,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 96,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 2
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306712678993100,
+    "nanos": -979890996
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637306713680584400,
+    "nanos": 21700304
+  },
+  "agent_id": "221cc13f84fc",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307117203474400,
+    "nanos": -182335520
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 1,
+    "cpu_p": 0.3333333333333333,
+    "system_p": 0.3333333333333333,
+    "user_p": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307118201095700,
+    "nanos": 815285780
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307119206506400,
+    "nanos": 1820696480
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.8333333333333334,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307120168344100,
+    "nanos": -1512433116
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307117203620600,
+    "nanos": -182189320
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 501880,
+    "Mem.total": 6860740,
+    "Mem.used": 6358860,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307118201154500,
+    "nanos": 815344580
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 513964,
+    "Mem.total": 6860740,
+    "Mem.used": 6346776,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307119206572700,
+    "nanos": 1820762780
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 513208,
+    "Mem.total": 6860740,
+    "Mem.used": 6347532,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307120168414400,
+    "nanos": -1512362816
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 512956,
+    "Mem.total": 6860740,
+    "Mem.used": 6347784,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307118201260900,
+    "nanos": 815450980
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 196,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307119206791400,
+    "nanos": 1820981480
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 160,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307120168538600,
+    "nanos": -1512238616
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 90,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307121186085600,
+    "nanos": -494691616
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 2,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307122167017400,
+    "nanos": 486240184
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 6,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 4,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.6666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.8333333333333334
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307123166631900,
+    "nanos": 1485854684
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 0,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307124166951700,
+    "nanos": -1808792812
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 12,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 11,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 2.5,
+    "system_p": 0.6666666666666666,
+    "user_p": 1.8333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307125168172500,
+    "nanos": -807572012
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 0,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307121186189000,
+    "nanos": -494588216
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 511940,
+    "Mem.total": 6860740,
+    "Mem.used": 6348800,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307122167091000,
+    "nanos": 486313784
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 512404,
+    "Mem.total": 6860740,
+    "Mem.used": 6348336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307123166677200,
+    "nanos": 1485899984
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 512404,
+    "Mem.total": 6860740,
+    "Mem.used": 6348336,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307124167050400,
+    "nanos": -1808694112
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 510136,
+    "Mem.total": 6860740,
+    "Mem.used": 6350604,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307125168231400,
+    "nanos": -807513112
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 510136,
+    "Mem.total": 6860740,
+    "Mem.used": 6350604,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307121186303600,
+    "nanos": -494473616
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1380,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 18,
+    "eth0.tx.bytes": 7661,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 16
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307122167235200,
+    "nanos": 486457984
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 147,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 2,
+    "eth0.tx.bytes": 177,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 2
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307123166846800,
+    "nanos": 1486069584
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 42,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 42,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307124167195400,
+    "nanos": -1808549112
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 70,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307125168425200,
+    "nanos": -807319312
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307126182318700,
+    "nanos": 206574188
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.6666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.8333333333333334
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307127167512900,
+    "nanos": 1191768388
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1,
+    "system_p": 0.6666666666666666,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307128167619300,
+    "nanos": -2103092508
+  },
+  "agent_id": "18484167550c",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 1,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.16666666666666666
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307126182386800,
+    "nanos": 206642288
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 509884,
+    "Mem.total": 6860740,
+    "Mem.used": 6350856,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307127167560600,
+    "nanos": 1191816088
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 509664,
+    "Mem.total": 6860740,
+    "Mem.used": 6351076,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307128167740000,
+    "nanos": -2102971808
+  },
+  "agent_id": "18484167550c",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 509672,
+    "Mem.total": 6860740,
+    "Mem.used": 6351068,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307126182483400,
+    "nanos": 206738888
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1689,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 23,
+    "eth0.tx.bytes": 9972,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 18
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307127167645600,
+    "nanos": 1191901088
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 54,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 1
+  }
+}{
+  "timestamp": {
+    "seconds": 1637307128168076300,
+    "nanos": -2102635508
+  },
+  "agent_id": "18484167550c",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308353760076800,
+    "nanos": -576314368
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 2,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308354760244700,
+    "nanos": 423853532
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 1,
+    "cpu2.p_system": 1,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 0,
+    "cpu4.p_system": 0,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 0.6666666666666666,
+    "system_p": 0.6666666666666666,
+    "user_p": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308355761221400,
+    "nanos": 1424830232
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 1,
+    "cpu0.p_user": 1,
+    "cpu1.p_cpu": 1,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 3,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 1,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 2,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 1,
+    "cpu_p": 1.3333333333333333,
+    "system_p": 1,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308356759749000,
+    "nanos": -1871609464
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 0,
+    "cpu0.p_system": 0,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 2,
+    "cpu1.p_user": 0,
+    "cpu2.p_cpu": 0,
+    "cpu2.p_system": 0,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 0,
+    "cpu3.p_user": 1,
+    "cpu4.p_cpu": 2,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 1,
+    "cpu5.p_cpu": 0,
+    "cpu5.p_system": 0,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.1666666666666667,
+    "system_p": 0.8333333333333334,
+    "user_p": 0.3333333333333333
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308353760206100,
+    "nanos": -576185068
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496676,
+    "Mem.total": 6860740,
+    "Mem.used": 6364064,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308354760316700,
+    "nanos": 423925532
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496644,
+    "Mem.total": 6860740,
+    "Mem.used": 6364096,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308355761277200,
+    "nanos": 1424886032
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496644,
+    "Mem.total": 6860740,
+    "Mem.used": 6364096,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308356759810700,
+    "nanos": -1871547764
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 496644,
+    "Mem.total": 6860740,
+    "Mem.used": 6364096,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308354760440900,
+    "nanos": 424049732
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 90,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 1,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308355761376800,
+    "nanos": 1424985632
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308356759909300,
+    "nanos": -1871449164
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 0,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 0,
+    "eth0.tx.bytes": 0,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 0
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308357777814400,
+    "nanos": -853544064
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "cpu",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "cpu0.p_cpu": 2,
+    "cpu0.p_system": 2,
+    "cpu0.p_user": 0,
+    "cpu1.p_cpu": 2,
+    "cpu1.p_system": 1,
+    "cpu1.p_user": 1,
+    "cpu2.p_cpu": 2,
+    "cpu2.p_system": 2,
+    "cpu2.p_user": 0,
+    "cpu3.p_cpu": 1,
+    "cpu3.p_system": 1,
+    "cpu3.p_user": 0,
+    "cpu4.p_cpu": 1,
+    "cpu4.p_system": 1,
+    "cpu4.p_user": 0,
+    "cpu5.p_cpu": 1,
+    "cpu5.p_system": 1,
+    "cpu5.p_user": 0,
+    "cpu_p": 1.5,
+    "system_p": 1,
+    "user_p": 0.5
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308357778141700,
+    "nanos": -853216764
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "memory",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "Mem.free": 499960,
+    "Mem.total": 6860740,
+    "Mem.used": 6360780,
+    "Swap.free": 992172,
+    "Swap.total": 1048572,
+    "Swap.used": 56400
+  }
+}{
+  "timestamp": {
+    "seconds": 1637308357778326100,
+    "nanos": -853032364
+  },
+  "agent_id": "4f43e6f8ab33",
+  "tag": "netif",
+  "UserID": "2134558",
+  "AccessKey": "9c60f26f-5b6c-4c80-b5f5-625bf965b6a6",
+  "message": {
+    "eth0.rx.bytes": 1651,
+    "eth0.rx.errors": 0,
+    "eth0.rx.packets": 22,
+    "eth0.tx.bytes": 7778,
+    "eth0.tx.errors": 0,
+    "eth0.tx.packets": 18
+  }
 }

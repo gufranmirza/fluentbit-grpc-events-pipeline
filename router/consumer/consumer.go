@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/kafka"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/kafka"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/utils"
 )
 
 // Config holds the server specific config
@@ -42,7 +42,7 @@ func NewConsumer(c *Config) *Consumer {
 	}
 
 	// start kafka consumer
-	conn, err := kafka.NewConsumer("plogger-kafka", "plogger-group", []string{"127.0.0.1:9092"})
+	conn, err := kafka.NewConsumer("fb-kafka", "fb-group", []string{"127.0.0.1:9092"})
 	if err != nil {
 		log.Fatalf("Failed to connect to kafka %v \n", err)
 	}

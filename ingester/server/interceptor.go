@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/jwtauth"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/jwtauth"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

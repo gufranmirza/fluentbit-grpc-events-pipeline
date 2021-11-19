@@ -1,4 +1,4 @@
-module github.ibm.com/Gufran-Baig/fargo-fb-poc
+module github.com/gufranmirza/fluentbit-grpc-events-pipeline
 
 go 1.15
 

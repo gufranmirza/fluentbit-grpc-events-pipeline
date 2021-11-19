@@ -16,7 +16,7 @@ Below is the very hign level design of the project. It uses below tech stack
 
 # Fluentbit Agent
 Fluentbit-Agent is used to collect events from the host system. A Fluentbit plugin is written that communicates with the Ingester API and pushes the events to it.  
-- [Plugin Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/fluentbit-collector/plugin)
+- [Plugin Code](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/tree/master/fluentbit-collector/plugin)
 
 When you start the FB-Agent it will require the `ACCESS_KEY` `and ACCESS_TOKEN` 
 - `ACCESS_KEY` Configuration for an agent is stored againts this access key. FB-Agent uses access key to obtain the configuration from Ingester API 
@@ -30,13 +30,13 @@ When you start the FB-Agent it will require the `ACCESS_KEY` `and ACCESS_TOKEN`
 
 #### Config Exchange 
 Below is the diagram that shows the config exchange between the FB-Agent and Ingester. Config exchange requires the valid `ACCESS_TOKEN` and `ACCESS_KEY`. It accepst the `ACCESS_KEY` as request parameter.
-- You can find the whole [Config Object here](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/api/api.proto#L21)
+- You can find the whole [Config Object here](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/blob/master/api/api.proto#L21)
 ![](images/Config%20Exchange%402x.png)
 
 
 #### Streaming Events 
 It uses the Streaming RPC to stream events from the FB-Agent to the ingester API. It requires the valid `ACCESS_TOKEN` to be passed with every request.
-- You can find the whole [Event Object here](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/api/api.proto#L8)
+- You can find the whole [Event Object here](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/blob/master/api/api.proto#L8)
 ![](images/Events@2x.png)
 
 
@@ -55,7 +55,7 @@ It uses the Streaming RPC to stream events from the FB-Agent to the ingester API
 # Ingester
 Ingester is responsible for running the RPC server. FB-Agent sends the events to the Ingester via streaming RPC. Its also has the config for each FB-Agent. It validates the incoming request with passed `ACCESS_TOKEN` and pushes the events to the Kafka topic `plogger-kafka`.
 
-- [Ingester Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/ingester)
+- [Ingester Code](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/tree/master/ingester)
 
 #### It does the following 
 - Host the config for FB-Agents
@@ -63,7 +63,7 @@ Ingester is responsible for running the RPC server. FB-Agent sends the events to
 - Perform JWT Authentication
 - Push Events to Kafka topic `plogger-kafka`
 
-NOTE: Temporarily it hosts the config for the FB-Agent. Ideally it should be stored in seperate config service. It loads the config from this [JSON file](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/access-tokens-db.json). Where each key is `ACCESS_KEY` that can be used with FB-Agent.
+NOTE: Temporarily it hosts the config for the FB-Agent. Ideally it should be stored in seperate config service. It loads the config from this [JSON file](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/blob/master/access-tokens-db.json). Where each key is `ACCESS_KEY` that can be used with FB-Agent.
 
 IDEA: Some king of hash can be calculated using customer event data that pushes the events to specific partiton of the kafka topic, and then only one router can be spawn to consume events from that partiton only .
 
@@ -75,7 +75,7 @@ IDEA: Some king of hash can be calculated using customer event data that pushes 
 # Router
 Router consumes the events from the kafka topic `plogger-kafka` and writes it to the specified destinations. Currenlt it is very minimal and it only writes the events to the file (ACCESS_KEY.log) on local diks. 
 
-- [Router Code](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/tree/master/router)
+- [Router Code](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/tree/master/router)
 
 #### It does the following 
 - Consume events from `plogger-kafka` topic
@@ -161,7 +161,7 @@ docker build . -t fluentbit-collector -f Dockerfile
 ```
 
 - `ACCESS_TOKEN` - Use the access token you created while starting the ingester
-- `ACCESS_KEY` - Use any of the key from this [JSON file](https://github.ibm.com/Gufran-Baig/fargo-fb-poc/blob/master/access-tokens-db.json)
+- `ACCESS_KEY` - Use any of the key from this [JSON file](https://github.com/gufranmirza/fluentbit-grpc-events-pipeline/blob/master/access-tokens-db.json)
 
 2. Run following command to run the container image
 ```

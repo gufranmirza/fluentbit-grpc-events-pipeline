@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/fluent/fluent-bit-go/output"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/encryption"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/encryption"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 import (

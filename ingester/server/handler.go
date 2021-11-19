@@ -6,8 +6,8 @@ import (
 	"io"
 	"log"
 
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/utils"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/utils"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/fluent/fluent-bit-go/output"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/api/apiproto"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/api/apiproto"
 	"google.golang.org/grpc"
 )
 import (

@@ -5,15 +5,15 @@ import (
 	"os"
 	"time"
 
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/ingester/server"
+	"github.com/gufranmirza/fluentbit-grpc-events-pipeline/pkg/jwtauth"
 	"github.com/spf13/cobra"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/ingester/server"
-	"github.ibm.com/Gufran-Baig/fargo-fb-poc/pkg/jwtauth"
 )
 
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
 	Use:   "Ingester",
-	Short: "Ingester implementation for PLogger",
+	Short: "Ingester implementation for FB-Agent",
 	Long:  `Starts a http server and serves the configured api`,
 }
 
